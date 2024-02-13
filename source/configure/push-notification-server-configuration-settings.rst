@@ -20,7 +20,7 @@ Enable push notifications
 +-----------------------------------------------------------------+--------------------------------------------------------------------------------+
 | Enable or disable Mattermost push notifications.                | - System Config path: **Environment > Push Notification Server**               |
 |                                                                 | - ``config.json setting``: ``".EmailSettings.SendPushNotifications": true",``  |
-| - **Do not send push notifications**: Mobile push notifications | - Environment variable: ``MM_EMAILSETTINGS_SENDPUSHNOTIFICATIONS``             |
+| - **Do not send push notifications**: Mobile push notifications | - Environment variable: ``MM_EMAILSETTINGS_SENDPUSHNOTIFICATIONS=true``        |
 |   are disabled.                                                 |                                                                                |
 | - **Use HPNS connection with uptime SLA to send notifications   |                                                                                |
 |   to iOS and Android apps**: **(Default)** Use Mattermost's     |                                                                                |
